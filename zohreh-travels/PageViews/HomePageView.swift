@@ -17,62 +17,83 @@ struct HomePageView: View {
             ScrollView(.vertical, showsIndicators: false) {
                 VStack(alignment: .leading, spacing: 0) {
                     
-                    // welcome section title
-                    Text("Hello!")
-                        .font(.largeTitle)
-                        .fontWeight(.heavy)
-                        .padding(.top, 40)
-                    
-                    // welcome section subtitle
-                    Text("What are you looking for?")
-                        .font(.body)
-                        .padding(.bottom)
-                    
-                    // search
-                    HStack {
-                        Image(systemName: "magnifyingglass")
-                            .resizable()
-                            .frame(width: 18, height: 18, alignment: .leading)
+                    VStack(alignment: .leading, spacing: 0) {
+                        // welcome section title
+                        Text("Hello!")
+                            .font(.largeTitle)
+                            .fontWeight(.heavy)
+                            .padding(.top, 40)
                         
-                        TextField("Search your trip", text: $searchText)
-                            .foregroundColor(Color.white)
-                    }
-                    .padding()
-                    .padding(.horizontal, 12)
-                    .background(Color.gray.opacity(0.2))
-                    .cornerRadius(32)
-                    
-                    
-                    // categories
-                    Text("Categories")
-                        .font(.title3)
-                        .bold()
-                        .padding(.bottom)
-                        .padding(.top)
-                    
-                    // icons
-                    HStack(alignment: .center, spacing: 20) {
-                        ForEach(categories, id: \.title) { category in
-                            VStack {
-                                
-                                Image(category.image)
-                                    .resizable()
-                                    .frame(width: 22, height: 22, alignment: .center)
-                                    .padding()
-                                    .background(
-                                        Circle().fill(Color.black.opacity(0.4))
-                                    )
-                                    .foregroundColor(.white)
-                                Text(category.title)
-                                    .font(.caption2)
-                                
+                        // welcome section subtitle
+                        Text("What are you looking for?")
+                            .font(.body)
+                            .padding(.bottom)
+                        
+                        // search
+                        HStack {
+                            Image(systemName: "magnifyingglass")
+                                .resizable()
+                                .frame(width: 18, height: 18, alignment: .leading)
+                            
+                            TextField("Search your trip", text: $searchText)
+                                .foregroundColor(Color.white)
+                        }
+                        .padding()
+                        .padding(.horizontal, 12)
+                        .background(Color.gray.opacity(0.2))
+                        .cornerRadius(32)
+                        
+                        
+                        // categories
+                        Text("Categories")
+                            .font(.title3)
+                            .fontWeight(.heavy)
+                            .padding(.bottom, 8)
+                            .padding(.top, 20)
+                        
+                        // icons
+                        HStack(alignment: .center, spacing: 20) {
+                            ForEach(categories, id: \.title) { category in
+                                VStack {
+                                    
+                                    Image(category.image)
+                                        .resizable()
+                                        .frame(width: 22, height: 22, alignment: .center)
+                                        .padding()
+                                        .background(
+                                            Circle().fill(Color.black.opacity(0.4))
+                                        )
+                                        .foregroundColor(.white)
+                                    Text(category.title)
+                                        .font(.caption2)
+                                    
+                                }
                             }
                         }
                     }
+                    .padding(.horizontal)
+                    
+                    
+                    // destinations
+                    Text("Trending Now")
+                        .font(.title3)
+                        .fontWeight(.heavy)
+                        .padding(.bottom, 8)
+                        .padding(.top, 40)
+                        .padding(.horizontal)
+                    
+                    // destinationes
+                    ScrollView(.horizontal, showsIndicators: false) {
+                        HStack(spacing: 20) {
+                            ForEach(destinations) { destination in
+                                DestinationCardView(destination: destination)
+                            }
+                        }
+                    }
+//                    .padding(.top, 20)
                     
                 }
             }
-            .padding(.horizontal)
             .navigationBarItems(
                 
                 leading:
