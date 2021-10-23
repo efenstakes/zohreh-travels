@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CECA1F1C272429A000B46C4E /* zohreh_travelsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA1F1B272429A000B46C4E /* zohreh_travelsApp.swift */; };
+		CECA1F1E272429A000B46C4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA1F1D272429A000B46C4E /* ContentView.swift */; };
+		CECA1F20272429A900B46C4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECA1F1F272429A900B46C4E /* Assets.xcassets */; };
+		CECA1F23272429A900B46C4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECA1F22272429A900B46C4E /* Preview Assets.xcassets */; };
+		CECA1F2D272429A900B46C4E /* zohreh_travelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA1F2C272429A900B46C4E /* zohreh_travelsTests.swift */; };
+		CECA1F37272429A900B46C4E /* zohreh_travelsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA1F36272429A900B46C4E /* zohreh_travelsUITests.swift */; };
+		CECA1F39272429A900B46C4E /* zohreh_travelsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA1F38272429A900B46C4E /* zohreh_travelsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CECA1F29272429A900B46C4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECA1F102724299F00B46C4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CECA1F17272429A000B46C4E;
+			remoteInfo = "zohreh-travels";
+		};
+		CECA1F33272429A900B46C4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECA1F102724299F00B46C4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CECA1F17272429A000B46C4E;
+			remoteInfo = "zohreh-travels";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CECA1F18272429A000B46C4E /* zohreh-travels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zohreh-travels.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECA1F1B272429A000B46C4E /* zohreh_travelsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zohreh_travelsApp.swift; sourceTree = "<group>"; };
+		CECA1F1D272429A000B46C4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CECA1F1F272429A900B46C4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CECA1F22272429A900B46C4E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CECA1F28272429A900B46C4E /* zohreh-travelsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "zohreh-travelsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECA1F2C272429A900B46C4E /* zohreh_travelsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zohreh_travelsTests.swift; sourceTree = "<group>"; };
+		CECA1F32272429A900B46C4E /* zohreh-travelsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "zohreh-travelsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECA1F36272429A900B46C4E /* zohreh_travelsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zohreh_travelsUITests.swift; sourceTree = "<group>"; };
+		CECA1F38272429A900B46C4E /* zohreh_travelsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zohreh_travelsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CECA1F15272429A000B46C4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECA1F25272429A900B46C4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECA1F2F272429A900B46C4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CECA1F0F2724299F00B46C4E = {
+			isa = PBXGroup;
+			children = (
+				CECA1F1A272429A000B46C4E /* zohreh-travels */,
+				CECA1F2B272429A900B46C4E /* zohreh-travelsTests */,
+				CECA1F35272429A900B46C4E /* zohreh-travelsUITests */,
+				CECA1F19272429A000B46C4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CECA1F19272429A000B46C4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CECA1F18272429A000B46C4E /* zohreh-travels.app */,
+				CECA1F28272429A900B46C4E /* zohreh-travelsTests.xctest */,
+				CECA1F32272429A900B46C4E /* zohreh-travelsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CECA1F1A272429A000B46C4E /* zohreh-travels */ = {
+			isa = PBXGroup;
+			children = (
+				CECA1F1B272429A000B46C4E /* zohreh_travelsApp.swift */,
+				CECA1F1D272429A000B46C4E /* ContentView.swift */,
+				CECA1F1F272429A900B46C4E /* Assets.xcassets */,
+				CECA1F21272429A900B46C4E /* Preview Content */,
+			);
+			path = "zohreh-travels";
+			sourceTree = "<group>";
+		};
+		CECA1F21272429A900B46C4E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CECA1F22272429A900B46C4E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CECA1F2B272429A900B46C4E /* zohreh-travelsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CECA1F2C272429A900B46C4E /* zohreh_travelsTests.swift */,
+			);
+			path = "zohreh-travelsTests";
+			sourceTree = "<group>";
+		};
+		CECA1F35272429A900B46C4E /* zohreh-travelsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CECA1F36272429A900B46C4E /* zohreh_travelsUITests.swift */,
+				CECA1F38272429A900B46C4E /* zohreh_travelsUITestsLaunchTests.swift */,
+			);
+			path = "zohreh-travelsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CECA1F17272429A000B46C4E /* zohreh-travels */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECA1F3C272429A900B46C4E /* Build configuration list for PBXNativeTarget "zohreh-travels" */;
+			buildPhases = (
+				CECA1F14272429A000B46C4E /* Sources */,
+				CECA1F15272429A000B46C4E /* Frameworks */,
+				CECA1F16272429A000B46C4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "zohreh-travels";
+			productName = "zohreh-travels";
+			productReference = CECA1F18272429A000B46C4E /* zohreh-travels.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CECA1F27272429A900B46C4E /* zohreh-travelsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECA1F3F272429A900B46C4E /* Build configuration list for PBXNativeTarget "zohreh-travelsTests" */;
+			buildPhases = (
+				CECA1F24272429A900B46C4E /* Sources */,
+				CECA1F25272429A900B46C4E /* Frameworks */,
+				CECA1F26272429A900B46C4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CECA1F2A272429A900B46C4E /* PBXTargetDependency */,
+			);
+			name = "zohreh-travelsTests";
+			productName = "zohreh-travelsTests";
+			productReference = CECA1F28272429A900B46C4E /* zohreh-travelsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CECA1F31272429A900B46C4E /* zohreh-travelsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECA1F42272429A900B46C4E /* Build configuration list for PBXNativeTarget "zohreh-travelsUITests" */;
+			buildPhases = (
+				CECA1F2E272429A900B46C4E /* Sources */,
+				CECA1F2F272429A900B46C4E /* Frameworks */,
+				CECA1F30272429A900B46C4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CECA1F34272429A900B46C4E /* PBXTargetDependency */,
+			);
+			name = "zohreh-travelsUITests";
+			productName = "zohreh-travelsUITests";
+			productReference = CECA1F32272429A900B46C4E /* zohreh-travelsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CECA1F102724299F00B46C4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					CECA1F17272429A000B46C4E = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					CECA1F27272429A900B46C4E = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = CECA1F17272429A000B46C4E;
+					};
+					CECA1F31272429A900B46C4E = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = CECA1F17272429A000B46C4E;
+					};
+				};
+			};
+			buildConfigurationList = CECA1F13272429A000B46C4E /* Build configuration list for PBXProject "zohreh-travels" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CECA1F0F2724299F00B46C4E;
+			productRefGroup = CECA1F19272429A000B46C4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CECA1F17272429A000B46C4E /* zohreh-travels */,
+				CECA1F27272429A900B46C4E /* zohreh-travelsTests */,
+				CECA1F31272429A900B46C4E /* zohreh-travelsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CECA1F16272429A000B46C4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECA1F23272429A900B46C4E /* Preview Assets.xcassets in Resources */,
+				CECA1F20272429A900B46C4E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECA1F26272429A900B46C4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECA1F30272429A900B46C4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CECA1F14272429A000B46C4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECA1F1E272429A000B46C4E /* ContentView.swift in Sources */,
+				CECA1F1C272429A000B46C4E /* zohreh_travelsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECA1F24272429A900B46C4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECA1F2D272429A900B46C4E /* zohreh_travelsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECA1F2E272429A900B46C4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECA1F39272429A900B46C4E /* zohreh_travelsUITestsLaunchTests.swift in Sources */,
+				CECA1F37272429A900B46C4E /* zohreh_travelsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CECA1F2A272429A900B46C4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CECA1F17272429A000B46C4E /* zohreh-travels */;
+			targetProxy = CECA1F29272429A900B46C4E /* PBXContainerItemProxy */;
+		};
+		CECA1F34272429A900B46C4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CECA1F17272429A000B46C4E /* zohreh-travels */;
+			targetProxy = CECA1F33272429A900B46C4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CECA1F3A272429A900B46C4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CECA1F3B272429A900B46C4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CECA1F3D272429A900B46C4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"zohreh-travels/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uit.zohreh-travels";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CECA1F3E272429A900B46C4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"zohreh-travels/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uit.zohreh-travels";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CECA1F40272429A900B46C4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uit.zohreh-travelsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zohreh-travels.app/zohreh-travels";
+			};
+			name = Debug;
+		};
+		CECA1F41272429A900B46C4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uit.zohreh-travelsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zohreh-travels.app/zohreh-travels";
+			};
+			name = Release;
+		};
+		CECA1F43272429A900B46C4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uit.zohreh-travelsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "zohreh-travels";
+			};
+			name = Debug;
+		};
+		CECA1F44272429A900B46C4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uit.zohreh-travelsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "zohreh-travels";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CECA1F13272429A000B46C4E /* Build configuration list for PBXProject "zohreh-travels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECA1F3A272429A900B46C4E /* Debug */,
+				CECA1F3B272429A900B46C4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECA1F3C272429A900B46C4E /* Build configuration list for PBXNativeTarget "zohreh-travels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECA1F3D272429A900B46C4E /* Debug */,
+				CECA1F3E272429A900B46C4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECA1F3F272429A900B46C4E /* Build configuration list for PBXNativeTarget "zohreh-travelsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECA1F40272429A900B46C4E /* Debug */,
+				CECA1F41272429A900B46C4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECA1F42272429A900B46C4E /* Build configuration list for PBXNativeTarget "zohreh-travelsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECA1F43272429A900B46C4E /* Debug */,
+				CECA1F44272429A900B46C4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CECA1F102724299F00B46C4E /* Project object */;
+}
