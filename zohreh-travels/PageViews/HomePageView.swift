@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+
 struct HomePageView: View {
     @State private var searchText: String = ""
     
@@ -41,6 +42,33 @@ struct HomePageView: View {
                     .background(Color.gray.opacity(0.2))
                     .cornerRadius(32)
                     
+                    
+                    // categories
+                    Text("Categories")
+                        .font(.title3)
+                        .bold()
+                        .padding(.bottom)
+                        .padding(.top)
+                    
+                    // icons
+                    HStack(alignment: .center, spacing: 20) {
+                        ForEach(categories, id: \.title) { category in
+                            VStack {
+                                
+                                Image(category.image)
+                                    .resizable()
+                                    .frame(width: 22, height: 22, alignment: .center)
+                                    .padding()
+                                    .background(
+                                        Circle().fill(Color.black.opacity(0.4))
+                                    )
+                                    .foregroundColor(.white)
+                                Text(category.title)
+                                    .font(.caption2)
+                                
+                            }
+                        }
+                    }
                     
                 }
             }
