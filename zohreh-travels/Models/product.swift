@@ -15,6 +15,7 @@ struct Destination: Identifiable {
     var name: String
     var image: String
     var country: String
+    var city: String
 }
 
 
@@ -27,14 +28,14 @@ var categories = [
 
 var destinations: [Destination] = [
 
-    Destination(name: "Eiffel Tower", image: "3", country: "France"),
-    Destination(name: "Paris", image: "4", country: "France"),
-    Destination(name: "Laza Cathedral", image: "5", country: "France"),
-    Destination(name: "New York", image: "6", country: "United States"),
-    Destination(name: "Eiffel Tower", image: "7", country: "France"),
-    Destination(name: "Eiffel Tower", image: "8", country: "France"),
-    Destination(name: "Eiffel Tower", image: "9", country: "France"),
-    Destination(name: "Eiffel Tower", image: "10", country: "France"),
-    Destination(name: "Eiffel Tower", image: "11", country: "France"),
+    Destination(name: "Eiffel Tower", image: "3", country: "France", city: "Paris"),
+    Destination(name: "Paris", image: "4", country: "France", city: "Paris"),
+    Destination(name: "Laza Cathedral", image: "5", country: "France", city: "Paris"),
+    Destination(name: "New Pyra", image: "6", country: "United States", city: "New York"),
+    Destination(name: "Eiffel Tower", image: "7", country: "France", city: "Paris"),
+    Destination(name: "Eiffel Tower", image: "8", country: "France", city: "Paris"),
+    Destination(name: "Eiffel Tower", image: "9", country: "France", city: "Paris"),
+    Destination(name: "Eiffel Tower", image: "10", country: "France", city: "Paris"),
+    Destination(name: "Eiffel Tower", image: "11", country: "France", city: "Paris"),
     
 ]
