@@ -21,6 +21,7 @@
 		CECA1F502724409400B46C4E /* product.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA1F4F2724409400B46C4E /* product.swift */; };
 		CECA1F52272440AC00B46C4E /* category.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA1F51272440AC00B46C4E /* category.swift */; };
 		CECA1F562724441700B46C4E /* DestinationCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA1F552724441700B46C4E /* DestinationCardView.swift */; };
+		CECA1F5A27244B4F00B46C4E /* DestinationDetailsPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA1F5927244B4F00B46C4E /* DestinationDetailsPageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		CECA1F4F2724409400B46C4E /* product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = product.swift; sourceTree = "<group>"; };
 		CECA1F51272440AC00B46C4E /* category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = category.swift; sourceTree = "<group>"; };
 		CECA1F552724441700B46C4E /* DestinationCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationCardView.swift; sourceTree = "<group>"; };
+		CECA1F5927244B4F00B46C4E /* DestinationDetailsPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationDetailsPageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 				CECA1F4827242B6200B46C4E /* ExplorePageView.swift */,
 				CECA1F4A27242B7600B46C4E /* AccountPageView.swift */,
 				CECA1F4C27242B8D00B46C4E /* BookmarkedPageView.swift */,
+				CECA1F5927244B4F00B46C4E /* DestinationDetailsPageView.swift */,
 			);
 			path = PageViews;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CECA1F5A27244B4F00B46C4E /* DestinationDetailsPageView.swift in Sources */,
 				CECA1F4D27242B8D00B46C4E /* BookmarkedPageView.swift in Sources */,
 				CECA1F1E272429A000B46C4E /* ContentView.swift in Sources */,
 				CECA1F562724441700B46C4E /* DestinationCardView.swift in Sources */,

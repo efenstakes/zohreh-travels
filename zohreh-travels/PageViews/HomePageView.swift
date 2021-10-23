@@ -27,6 +27,7 @@ struct HomePageView: View {
                         // welcome section subtitle
                         Text("What are you looking for?")
                             .font(.body)
+                            .foregroundColor(.secondary)
                             .padding(.bottom)
                         
                         // search
@@ -49,7 +50,7 @@ struct HomePageView: View {
                             .font(.title3)
                             .fontWeight(.heavy)
                             .padding(.bottom, 8)
-                            .padding(.top, 20)
+                            .padding(.top, 32)
                         
                         // icons
                         HStack(alignment: .center, spacing: 20) {
@@ -58,10 +59,10 @@ struct HomePageView: View {
                                     
                                     Image(category.image)
                                         .resizable()
-                                        .frame(width: 22, height: 22, alignment: .center)
-                                        .padding()
+                                        .frame(width: 24, height: 24, alignment: .center)
+                                        .padding(22)
                                         .background(
-                                            Circle().fill(Color.black.opacity(0.4))
+                                            Circle().fill(Color.gray.opacity(0.2))
                                         )
                                         .foregroundColor(.white)
                                     Text(category.title)
@@ -86,11 +87,18 @@ struct HomePageView: View {
                     ScrollView(.horizontal, showsIndicators: false) {
                         HStack(spacing: 20) {
                             ForEach(destinations) { destination in
-                                DestinationCardView(destination: destination)
+                                
+                                NavigationLink(
+                                    destination: DestinationDetailsPageView(
+                                        destination: destination
+                                    )
+                                ) {
+                                    DestinationCardView(destination: destination)
+                                }
                             }
                         }
                     }
-//                    .padding(.top, 20)
+                    
                     
                 }
             }
@@ -102,7 +110,7 @@ struct HomePageView: View {
                         .frame(width: 20, height: 20, alignment: .center)
                         .padding()
                         .background(
-                            Circle().fill(Color.black.opacity(0.3))
+                            Circle().fill(Color.black.opacity(0.4))
                         )
                         .foregroundColor(.white),
                 
@@ -112,7 +120,7 @@ struct HomePageView: View {
                         .frame(width: 20, height: 20, alignment: .center)
                         .padding()
                         .background(
-                            Circle().fill(Color.black.opacity(0.3))
+                            Circle().fill(Color.black.opacity(0.4))
                         )
                         .foregroundColor(.white)
                     
