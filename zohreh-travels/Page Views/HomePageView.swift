@@ -13,36 +13,64 @@ struct HomePageView: View {
     var body: some View {
         
         NavigationView {
-            ScrollView {
-                
-                Text("Hello!")
-                    .font(.title)
-                    .fontWeight(.heavy)
-                    .padding(.top, 40)
-                
-                Text("What are you looking for")
-                    .font(.caption)
-                
-                // search
-                HStack {
-                    Image(systemName: "magnifyingglass")
-                        .resizable()
-                        .frame(width: 18, height: 18, alignment: .leading)
+            ScrollView(.vertical, showsIndicators: false) {
+                VStack(alignment: .leading, spacing: 0) {
                     
-                    TextField("Search your trip", text: $searchText)
+                    // welcome section title
+                    Text("Hello!")
+                        .font(.largeTitle)
+                        .fontWeight(.heavy)
+                        .padding(.top, 40)
+                    
+                    // welcome section subtitle
+                    Text("What are you looking for?")
+                        .font(.body)
+                        .padding(.bottom)
+                    
+                    // search
+                    HStack {
+                        Image(systemName: "magnifyingglass")
+                            .resizable()
+                            .frame(width: 18, height: 18, alignment: .leading)
+                        
+                        TextField("Search your trip", text: $searchText)
+                            .foregroundColor(Color.white)
+                    }
+                    .padding()
+                    .padding(.horizontal, 12)
+                    .background(Color.gray.opacity(0.2))
+                    .cornerRadius(32)
+                    
+                    
                 }
-                .background(Color.gray.opacity(0.3))
-                .cornerRadius(12)
-                .padding()
-                
-                
             }
             .padding(.horizontal)
+            .navigationBarItems(
+                
+                leading:
+                    Image(systemName: "person.crop.circle")
+                        .resizable()
+                        .frame(width: 20, height: 20, alignment: .center)
+                        .padding()
+                        .background(
+                            Circle().fill(Color.black.opacity(0.3))
+                        )
+                        .foregroundColor(.white),
+                
+                trailing:
+                    Image(systemName: "bell.badge")
+                        .resizable()
+                        .frame(width: 20, height: 20, alignment: .center)
+                        .padding()
+                        .background(
+                            Circle().fill(Color.black.opacity(0.3))
+                        )
+                        .foregroundColor(.white)
+                    
+            )
+            .navigationBarTitleDisplayMode(.inline)
+            
         }
-//        .navigationBarItems(
-//            leading: Image(,
-//            trailing: <#T##View#>
-//        )
         
     }
 }
