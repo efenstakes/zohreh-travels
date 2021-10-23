@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+
+struct DestinationCategory {
+    var image: String
+    var title: String
+}
