@@ -14,6 +14,10 @@
 		CECA1F2D272429A900B46C4E /* zohreh_travelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA1F2C272429A900B46C4E /* zohreh_travelsTests.swift */; };
 		CECA1F37272429A900B46C4E /* zohreh_travelsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA1F36272429A900B46C4E /* zohreh_travelsUITests.swift */; };
 		CECA1F39272429A900B46C4E /* zohreh_travelsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA1F38272429A900B46C4E /* zohreh_travelsUITestsLaunchTests.swift */; };
+		CECA1F4727242B3E00B46C4E /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA1F4627242B3E00B46C4E /* HomePageView.swift */; };
+		CECA1F4927242B6200B46C4E /* ExplorePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA1F4827242B6200B46C4E /* ExplorePageView.swift */; };
+		CECA1F4B27242B7600B46C4E /* AccountPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA1F4A27242B7600B46C4E /* AccountPageView.swift */; };
+		CECA1F4D27242B8D00B46C4E /* BookmarkedPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA1F4C27242B8D00B46C4E /* BookmarkedPageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		CECA1F32272429A900B46C4E /* zohreh-travelsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "zohreh-travelsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECA1F36272429A900B46C4E /* zohreh_travelsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zohreh_travelsUITests.swift; sourceTree = "<group>"; };
 		CECA1F38272429A900B46C4E /* zohreh_travelsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zohreh_travelsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CECA1F4627242B3E00B46C4E /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		CECA1F4827242B6200B46C4E /* ExplorePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorePageView.swift; sourceTree = "<group>"; };
+		CECA1F4A27242B7600B46C4E /* AccountPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountPageView.swift; sourceTree = "<group>"; };
+		CECA1F4C27242B8D00B46C4E /* BookmarkedPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkedPageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,7 @@
 		CECA1F1A272429A000B46C4E /* zohreh-travels */ = {
 			isa = PBXGroup;
 			children = (
+				CECA1F4527242B2200B46C4E /* Page Views */,
 				CECA1F1B272429A000B46C4E /* zohreh_travelsApp.swift */,
 				CECA1F1D272429A000B46C4E /* ContentView.swift */,
 				CECA1F1F272429A900B46C4E /* Assets.xcassets */,
@@ -125,6 +134,17 @@
 				CECA1F38272429A900B46C4E /* zohreh_travelsUITestsLaunchTests.swift */,
 			);
 			path = "zohreh-travelsUITests";
+			sourceTree = "<group>";
+		};
+		CECA1F4527242B2200B46C4E /* Page Views */ = {
+			isa = PBXGroup;
+			children = (
+				CECA1F4627242B3E00B46C4E /* HomePageView.swift */,
+				CECA1F4827242B6200B46C4E /* ExplorePageView.swift */,
+				CECA1F4A27242B7600B46C4E /* AccountPageView.swift */,
+				CECA1F4C27242B8D00B46C4E /* BookmarkedPageView.swift */,
+			);
+			path = "Page Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CECA1F4D27242B8D00B46C4E /* BookmarkedPageView.swift in Sources */,
 				CECA1F1E272429A000B46C4E /* ContentView.swift in Sources */,
+				CECA1F4B27242B7600B46C4E /* AccountPageView.swift in Sources */,
+				CECA1F4727242B3E00B46C4E /* HomePageView.swift in Sources */,
 				CECA1F1C272429A000B46C4E /* zohreh_travelsApp.swift in Sources */,
+				CECA1F4927242B6200B46C4E /* ExplorePageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

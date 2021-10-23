@@ -9,10 +9,36 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+       
+        TabView {
+            
+            HomePageView()
+                .tabItem {
+                    Label("Home", systemImage: "house")
+                }
+
+            ExplorePageView()
+                .tabItem {
+                    Label("Explore", systemImage: "location.circle")
+                }
+
+
+            BookmarkedPageView()
+                .tabItem {
+                    Label("Bookmarked", systemImage: "bookmark")
+                }
+
+
+            AccountPageView()
+                .tabItem {
+                    Label("Account", systemImage: "person.crop.circle")
+                }
+
+        }
+               
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
