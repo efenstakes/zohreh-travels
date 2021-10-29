@@ -11,6 +11,9 @@ struct DestinationDetailsPageView: View {
     var destination: Destination
     
     
+    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
+
+    
     var body: some View {
         
         ZStack(alignment: .top) {
@@ -95,8 +98,7 @@ struct DestinationDetailsPageView: View {
                         .padding(.bottom)
                     
                     Button(action: {
-                        print("Book it now")
-                    }, label: {
+                        print("Book it now")                    }, label: {
                         Text("Book Now")
                             .foregroundColor(.black)
                             .padding()
@@ -127,6 +129,9 @@ struct DestinationDetailsPageView: View {
                         Circle().fill(Color.gray.opacity(0.6))
                     )
                     .foregroundColor(.white)
+                    .onTapGesture {
+                        presentationMode.wrappedValue.dismiss();
+                    }
             
                 Spacer()
                 
