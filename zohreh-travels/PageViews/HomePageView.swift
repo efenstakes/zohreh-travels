@@ -112,7 +112,8 @@ struct HomePageView: View {
                         .background(
                             Circle().fill(Color.black.opacity(0.4))
                         )
-                        .foregroundColor(.white),
+                        .foregroundColor(.white)
+                        .padding(.vertical, 8),
                 
                 trailing:
                     Image(systemName: "bell.badge")
@@ -123,6 +124,7 @@ struct HomePageView: View {
                             Circle().fill(Color.black.opacity(0.4))
                         )
                         .foregroundColor(.white)
+                        .padding(.vertical, 8)
                     
             )
             .navigationBarTitleDisplayMode(.inline)
