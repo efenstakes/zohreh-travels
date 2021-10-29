@@ -16,7 +16,7 @@ struct DestinationCardView: View {
             
             Image(destination.image)
                 .resizable()
-                .frame(width: 200, height: 280, alignment: .center)
+                .frame(width: 200, height: 260, alignment: .center)
             
             VStack(alignment: .leading) {
                 
@@ -26,7 +26,6 @@ struct DestinationCardView: View {
                     Image(systemName: "bookmark")
                         .resizable()
                         .frame(width: 18, height: 22, alignment: .center)
-                        .padding(.horizontal)
                         .foregroundColor(.white)
                 }
                 .padding()
@@ -44,8 +43,8 @@ struct DestinationCardView: View {
                         .font(.caption)
                         .bold()
                 }
-                .frame(width: 200)
-                .padding(.horizontal, 10)
+                .padding(.horizontal, 16)
+                .frame(width: 200, alignment: .leading)
                 .padding(.vertical, 20)
                 .background(
                     Color.black.opacity(0.5)
@@ -56,7 +55,7 @@ struct DestinationCardView: View {
             
         }
         .clipped()
-        .frame(width: 200, height: 280, alignment: .center)
+        .frame(width: 200, height: 260)
         .cornerRadius(16)
         .padding(.leading)
         
